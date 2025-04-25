@@ -13,7 +13,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: "Herbal Soap",
-    price: 10,
+    price: 5000,
     description: "Cleanses the aura and brings peace of mind.",
     image: "https://via.placeholder.com/300x300?text=Herbal+Soap",
     details: "Our handcrafted herbal soap is made with sacred herbs and pure intentions. Each bar is energetically cleansed and charged under the full moon.",
@@ -23,7 +23,7 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Scented Candle",
-    price: 15,
+    price: 7500,
     description: "Enhances meditation and attracts positive energy.",
     image: "https://via.placeholder.com/300x300?text=Scented+Candle",
     details: "These hand-poured candles are infused with essential oils and blessed crystals. Perfect for creating a sacred space or enhancing your spiritual practice.",
@@ -32,7 +32,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: "Blessed Ring",
-    price: 25,
+    price: 12500,
     description: "Symbol of protection and manifestation.",
     image: "https://via.placeholder.com/300x300?text=Blessed+Ring",
     details: "Each ring is individually blessed and charged with protective energy. Wear it as a reminder of your spiritual journey and manifestation goals.",
@@ -42,7 +42,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: "Hand Fan",
-    price: 12,
+    price: 6000,
     description: "Used in rituals to cleanse and direct energy.",
     image: "https://via.placeholder.com/300x300?text=Hand+Fan",
     details: "Traditional hand fan made from sustainable materials. Use it to direct energy during rituals or to cleanse your sacred space.",
@@ -51,7 +51,7 @@ export const products: Product[] = [
   {
     id: 5,
     name: "Meditation Cushion",
-    price: 35,
+    price: 17500,
     description: "Ergonomic cushion for comfortable meditation sessions.",
     image: "https://via.placeholder.com/300x300?text=Meditation+Cushion",
     details: "Designed for optimal support during long meditation sessions. Made with natural, eco-friendly materials that honor the earth.",
@@ -60,7 +60,7 @@ export const products: Product[] = [
   {
     id: 6,
     name: "Crystal Bundle",
-    price: 40,
+    price: 20000,
     description: "Collection of healing crystals for various purposes.",
     image: "https://via.placeholder.com/300x300?text=Crystal+Bundle",
     details: "A carefully curated set of crystals chosen for their complementary energies. Each crystal is cleansed and charged before being sent to you.",
@@ -70,7 +70,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: "Sage Smudge Stick",
-    price: 8,
+    price: 5500,
     description: "Traditional herb bundle for space clearing.",
     image: "https://via.placeholder.com/300x300?text=Sage+Smudge+Stick",
     details: "Ethically harvested white sage bundled with intention. Use for cleansing your home, objects, or aura of negative energies.",
@@ -79,7 +79,7 @@ export const products: Product[] = [
   {
     id: 8,
     name: "Singing Bowl",
-    price: 65,
+    price: 32500,
     description: "Tibetan singing bowl for sound healing and meditation.",
     image: "https://via.placeholder.com/300x300?text=Singing+Bowl",
     details: "Handcrafted singing bowl made by traditional artisans. The rich harmonic tones help to quiet the mind and induce a deep meditative state.",
