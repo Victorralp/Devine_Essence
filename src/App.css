@@ -367,13 +367,6 @@ section + section {
   align-items: center;
 }
 
-.card-price::before {
-  content: '$';
-  font-size: 1rem;
-  margin-right: 2px;
-  opacity: 0.9;
-}
-
 .card-actions {
   margin-top: auto;
   display: flex;
@@ -951,13 +944,6 @@ section + section {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-}
-
-.modal-price::before {
-  content: '$';
-  font-size: 1.1rem;
-  margin-right: 2px;
-  opacity: 0.8;
 }
 
 .modal-description {
