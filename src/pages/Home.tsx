@@ -111,7 +111,7 @@ export function Home() {
                 <div className="card-body">
                   <h3 className="card-title">{product.name}</h3>
                   <p className="card-text">{product.description}</p>
-                  <div className="card-price">{product.price.toFixed(2)}</div>
+                  <div className="card-price">₦{product.price.toFixed(2)}</div>
                   <div className="card-actions">
                     <Link to={`/product/${product.id}`} className="btn btn-outline">
                       View Details
