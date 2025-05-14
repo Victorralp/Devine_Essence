@@ -72,7 +72,7 @@ export function Cart() {
                   <h3 className="item-name">{item.name}</h3>
                 </div>
                 <div className="item-price">
-                  ${item.price.toFixed(2)}
+                  ₦{item.price.toFixed(2)}
                 </div>
                 <div className="item-quantity">
                   <button 
@@ -92,7 +92,7 @@ export function Cart() {
                   </button>
                 </div>
                 <div className="item-total">
-                  ${(item.price * item.quantity).toFixed(2)}
+                  ₦{(item.price * item.quantity).toFixed(2)}
                 </div>
                 <button 
                   onClick={() => removeFromCart(item.id)} 
@@ -109,19 +109,19 @@ export function Cart() {
             <h2 className="summary-title">Order Summary</h2>
             <div className="summary-line">
               <span>Subtotal</span>
-              <span>${subtotal.toFixed(2)}</span>
+              <span>₦{subtotal.toFixed(2)}</span>
             </div>
             <div className="summary-line">
               <span>Shipping</span>
-              <span>${shippingCost.toFixed(2)}</span>
+              <span>₦{shippingCost.toFixed(2)}</span>
             </div>
             <div className="summary-line">
               <span>Tax</span>
-              <span>${tax.toFixed(2)}</span>
+              <span>₦{tax.toFixed(2)}</span>
             </div>
             <div className="summary-line total">
               <span>Total</span>
-              <span>${total.toFixed(2)}</span>
+              <span>₦{total.toFixed(2)}</span>
             </div>
             
             <button className="btn-checkout">Proceed to Checkout</button>

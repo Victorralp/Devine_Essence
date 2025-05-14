@@ -19,7 +19,7 @@ export function CartItem({ item }: CartItemProps) {
       
       <div className="flex-1 ml-4">
         <h3 className="text-lg font-medium text-gray-800">{item.name}</h3>
-        <p className="text-sm text-gray-600">${item.price} each</p>
+        <p className="text-sm text-gray-600">₦{item.price} each</p>
       </div>
       
       <div className="flex items-center space-x-2">
@@ -42,7 +42,7 @@ export function CartItem({ item }: CartItemProps) {
       </div>
       
       <div className="ml-6 w-20 text-right">
-        <p className="font-semibold">${(item.price * item.quantity).toFixed(2)}</p>
+        <p className="font-semibold">₦{(item.price * item.quantity).toFixed(2)}</p>
       </div>
       
       <button

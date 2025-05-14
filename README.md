@@ -1,7 +1,7 @@
 # Divine Essence
 
 Divine Essence is a beautiful e-commerce website for a fictional essential oils and aromatherapy products brand. The website showcases a modern, responsive design with a focus on user experience and aesthetics.
-
+  
 ## Features
 
 - Responsive design that works across all device sizes
